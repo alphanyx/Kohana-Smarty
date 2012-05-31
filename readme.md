@@ -5,6 +5,9 @@ With the Smarty Modul is it possible to render the views with the Smarty Engine.
 
 **Example Use:**
 
+	
+	use \Modules\Smarty;
+
 	class Controller_Example extends Controller {
 		$view = new Smarty();
 		$view->SmartyVariable = 'Hallo Welt!';
